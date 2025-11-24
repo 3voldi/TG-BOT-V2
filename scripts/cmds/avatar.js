@@ -1,7 +1,4 @@
 const axios = require('axios');
-const User = require('../../models/User');
-const settings = require('../../config/settings.json');
-const logger = require('../../utils/logger');
 
 module.exports = {
   name: "avatar",
